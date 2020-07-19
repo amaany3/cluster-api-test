@@ -1,0 +1,16 @@
+apiVersion: argoproj.io/v1alpha1
+  kind: Application
+  metadata:
+    name: visualization-cert-manager
+    namespace: argocd
+  spec:
+    destination:
+      namespace: cert-manager
+      server: https://kubernetes.default.svc
+    project: default
+    source:
+      path: templates/visualization
+      repoURL: https://github.com/ms-03/cluster-api-test
+      targetRevision: HEAD
+    syncPolicy:
+      automated: {}
