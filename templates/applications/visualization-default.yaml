@@ -1,11 +1,11 @@
 apiVersion: argoproj.io/v1alpha1
 kind: Application
 metadata:
-  name: visualization-capa-system
+  name: visualization-default
   namespace: argocd
 spec:
   destination:
-    namespace: capa-system
+    namespace: default
     server: https://kubernetes.default.svc
   project: default
   source:
