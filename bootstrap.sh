@@ -1,6 +1,6 @@
 export AWS_REGION=us-east-1 # This is used to help encode your environment variables
-export AWS_ACCESS_KEY_ID=AKIA5CQLQVCU2H3JU6NB
-export AWS_SECRET_ACCESS_KEY=MnrppFvIG3h1DazN2toBWXlccIqmI7WAkR9lOHja
+export AWS_ACCESS_KEY_ID=XXXXXXXXXXXXXXXXXXXX
+export AWS_SECRET_ACCESS_KEY=XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX
 
 # The clusterawsadm utility takes the credentials that you set as environment
 # variables and uses them to create a CloudFormation stack in your AWS account
